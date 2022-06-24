@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+	padding: 0;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #6f2232;
+}
+
+.navbar{
+	border-radius: 0px;
+	background-color: #4E4E50;
+}
+
+.navbar-brand{
+  font-size: 25px;
+  color: white;
+  padding-left: 25px;
+}
+
+.nav{
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-nav{
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-toggle{
+	border: 2px solid white;
+	margin-right: 25px;
+}
+
+.icon-bar{
+	background-color: white;
+}
+
+.row{
+	margin: 20px;
+}
+
+li{
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.menu-item{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+    background-color: #4E4E50;
+	border-bottom: 1px solid #fff;
+	color: #fff;
+	display: block;
+}
+
+.menu-item:hover{
+    background-color: #6f2232;
+	color: rgba(0,0,0,0.4);
+}
+
+h1{
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+}
+
+.box {
+    width: 100%;
+    overflow: none;
+}
+
+.menu-item-name{
+    text-align: center;
+    border: 1px solid black;
+    width: 90%;
+    height: 40px;
+    padding:10px;
+    float: right;
+    margin-right: 31px;
+    margin-top: 0px;
+    font-weight: bold;
+    position: relative;
+    color: white;
+}
+
+.menu-item-content {
+    border: 1px solid black;
+    text-align: justify;
+    width: 90%;
+    height: auto;
+    margin: 2.5%;
+    color: #fff;
+    font-size: 16px;
+    padding: 2%;
+    padding-top: 55px;
+    background-color: #4E4E50;
+}
+
+
+/** Large devices only **/
+@media (min-width: 992px) {
+  .col-lg-4 {
+  	float: left;
+    width: 33.33%;
+  }
+  .top {
+    visibility: hidden;
+  }
+}
+
+/** Medium devices only **/
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6,.col-md-12 {
+      float: left;
+    }
+    .col-md-6 {
+      width: 50%;
+    }
+    .col-md-12 {
+      margin-left: -10px;
+      width: 100%;
+    }
+    .menu-item-3{
+      margin-right: 65px;
+      width: 100px;
+    }
+    .item-3 {
+        width: 100%;
+    }
+    
+  }
+  
+  /** Small Devices Only **/
+  @media (min-width: 0px) and (max-width: 767px) {
+    .col-sm-12 {
+        float: left;
+        width: 100%;
+    }
+    .menu-item-name{
+        margin-right: 50px;
+    }
+
+  }
